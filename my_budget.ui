@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="Centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QVBoxLayout" name="background_layout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="Background_frame">
+      <property name="minimumSize">
+       <size>
+        <width>1280</width>
+        <height>900</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(150, 150, 150);
+border-top-left-radius:12px;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="Left_Frame">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>720</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: none;
+border-top-left-radius:12px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>1</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="Frame1_Control_panel">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>299</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-top-left-radius:12px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+background-color:rgb(200, 200, 200);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLabel" name="Control_label">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ubuntu</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:rgb(75,75,75)</string>
+               </property>
+               <property name="text">
+                <string>                     Управление</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="Frame2_Control_btns_2">
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(243, 243, 243);
+border-radius: 0px</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QPushButton" name="Button2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>41</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color:rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Операции за текущий месяц</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b2_list.png</normaloff>b2_list.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Button1">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color:rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Внести операцию / категорию</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b1_input.png</normaloff>b1_input.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Button3">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>81</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color:rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Таблица за текущий месяц</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b3_table.png</normaloff>b3_table.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QFrame" name="frame">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>300</width>
+               <height>120</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(200,200,200)
+</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+            <zorder>frame</zorder>
+            <zorder>Button2</zorder>
+            <zorder>Button1</zorder>
+            <zorder>Button3</zorder>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="Right_Frame">
+         <property name="minimumSize">
+          <size>
+           <width>980</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: none;
+border-top-left-radius:0px;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="Frame1_Control_btns">
+            <property name="minimumSize">
+             <size>
+              <width>980</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-top-left-radius:0px;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+background-color:rgb(200, 200, 200);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_5">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_4">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_7">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="Current_option">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ubuntu</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                 <kerning>true</kerning>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:rgb(75, 75, 75)</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_8">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_6">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_3">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="Buttons_layout">
+               <property name="spacing">
+                <number>12</number>
+               </property>
+               <property name="rightMargin">
+                <number>10</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="Button1_Rollup">
+                 <property name="minimumSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>21</width>
+                   <height>21</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <kerning>true</kerning>
+                  </font>
+                 </property>
+                 <property name="toolTip">
+                  <string>Свернуть</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(181, 181, 181);
+}
+QPushButton:hover {
+	background-color: rgba(0, 170, 0, 150)
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>cp_b1_min.png</normaloff>cp_b1_min.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Button2_Max">
+                 <property name="minimumSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>21</width>
+                   <height>21</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <kerning>true</kerning>
+                  </font>
+                 </property>
+                 <property name="toolTip">
+                  <string>Развернуть</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(181, 181, 181);
+}
+QPushButton:hover {
+	background-color: rgba(255, 238, 7, 150)
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>cp_b2_resize.png</normaloff>cp_b2_resize.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Button3_Exit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>21</width>
+                   <height>21</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <kerning>true</kerning>
+                  </font>
+                 </property>
+                 <property name="toolTip">
+                  <string>Закрыть</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+	border: none;
+	border-radius: 10px;
+	background-color:rgb(181, 181, 181);
+}
+QPushButton:hover {
+	background-color: rgba(255, 0, 9, 150)
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>cp_b3_close.png</normaloff>cp_b3_close.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="Frame2_Content_frame">
+            <property name="minimumSize">
+             <size>
+              <width>980</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255,255,255);
+border-radius: 0px</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QStackedWidget" name="StackedWidget_frame">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(255, 255, 255);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <property name="lineWidth">
+                <number>1</number>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <widget class="QWidget" name="page">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+               </widget>
+               <widget class="QWidget" name="Page1">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QLabel" name="Insert_info">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>230</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QComboBox" name="Choose_option_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>380</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="New_category">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>380</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Insert_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>389</x>
+                   <y>380</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Вставить</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Insert_info_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>430</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Insert_2_label">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>280</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Внести категорию</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Insert_1_label">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>80</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Внести операцию</string>
+                 </property>
+                </widget>
+                <widget class="QComboBox" name="Choose_option">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QComboBox" name="Choose_category">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="Sum">
+                 <property name="geometry">
+                  <rect>
+                   <x>387</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Insert">
+                 <property name="geometry">
+                  <rect>
+                   <x>711</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Вставить</string>
+                 </property>
+                </widget>
+                <widget class="QDateEdit" name="Date">
+                 <property name="geometry">
+                  <rect>
+                   <x>549</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Категория</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Доход / Расход</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>387</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Сумма</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_10">
+                 <property name="geometry">
+                  <rect>
+                   <x>549</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Дата</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_11">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>330</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Доход / Расход</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>330</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Категория</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page2">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QTableWidget" name="Page2_Main">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>135</y>
+                   <width>500</width>
+                   <height>690</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Light</family>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>Доход / Расход</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Категория</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Сумма</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Дата</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+                <widget class="QDateEdit" name="Date_To_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Show2">
+                 <property name="geometry">
+                  <rect>
+                   <x>389</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Показать</string>
+                 </property>
+                </widget>
+                <widget class="QDateEdit" name="Date_From_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>10</y>
+                   <width>801</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Для отображения таблицы за период выберите начальную и конечную дату и нажмите на кнопку &quot;Показать&quot;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Начальная дата</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>240</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Конечная дата</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page3">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QDateEdit" name="Date_From_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QDateEdit" name="Date_To_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67)</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Show3">
+                 <property name="geometry">
+                  <rect>
+                   <x>389</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Показать</string>
+                 </property>
+                </widget>
+                <widget class="QTableWidget" name="Page3_Main">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>135</y>
+                   <width>400</width>
+                   <height>690</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Light</family>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>Доход / Расход</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Категория</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Сумма</string>
+                  </property>
+                 </column>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>10</y>
+                   <width>801</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Для отображения таблицы за период выберите начальную и конечную дату и нажмите на кнопку &quot;Показать&quot;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Inc_pie">
+                 <property name="geometry">
+                  <rect>
+                   <x>480</x>
+                   <y>120</y>
+                   <width>480</width>
+                   <height>360</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Ex_pie">
+                 <property name="geometry">
+                  <rect>
+                   <x>480</x>
+                   <y>470</y>
+                   <width>480</width>
+                   <height>360</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="IncEx_pie">
+                 <property name="geometry">
+                  <rect>
+                   <x>570</x>
+                   <y>40</y>
+                   <width>300</width>
+                   <height>200</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Начальная дата</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>240</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Конечная дата</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page4">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="Frame3_Bottom">
+               <property name="minimumSize">
+                <size>
+                 <width>980</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>10</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(243, 243, 243);
+border-radius: 0px</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QFrame" name="frame_9">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>10</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_14">
+                  <property name="minimumSize">
+                   <size>
+                    <width>10</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>10</width>
+                    <height>10</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

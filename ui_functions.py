@@ -63,10 +63,10 @@ class ui_functions(MainWindow):
         self.ui.Button1.setCheckable(True)
         self.ui.Button2.setCheckable(True)
         self.ui.Button3.setCheckable(True)
+        self.ui.Button4.setCheckable(True)
 
         def controlbtnprssd(num, text, button):
-            global global_state_1
-            buttons = [self.ui.Button1, self.ui.Button2, self.ui.Button3]
+            buttons = [self.ui.Button1, self.ui.Button2, self.ui.Button3, self.ui.Button4]
             self.ui.StackedWidget_frame.setCurrentIndex(num)
             self.ui.Current_option.setText(text)
             for x in buttons:
@@ -80,7 +80,6 @@ class ui_functions(MainWindow):
                                 "background-color: rgb(220, 220, 220);\n"
                                 "}")
             if button.isChecked():
-                global_state_1 += 1
                 button.setStyleSheet(u"QPushButton {\n"
                                      "background-color: rgb(255, 88, 11);\n"
                                      "border: 0px solid;\n"
@@ -104,13 +103,13 @@ class ui_functions(MainWindow):
         self.ui.Button1.clicked.connect(lambda: controlbtnprssd(1, "Внести операцию / категорию", self.ui.Button1))
         self.ui.Button2.clicked.connect(lambda: controlbtnprssd(2, "Операции за месяц", self.ui.Button2))
         self.ui.Button3.clicked.connect(lambda: controlbtnprssd(3, "Таблица за текущий месяц", self.ui.Button3))
+        self.ui.Button4.clicked.connect(lambda: controlbtnprssd(4, "Таблица за текущий год", self.ui.Button4))
 
-        new_columns = [self.ui.Page2_Main.setColumnWidth(x[0], x[1]) for x in
-                       [(0, 120), (1, 140), (2, 70), (3, 100)]]
+        new_columns = [self.ui.Page2_Main.setColumnWidth(x[0], x[1]) for x in enumerate([30, 120, 140, 100, 80, 70])]
 
-        new_columns = [self.ui.Page3_Main.setColumnWidth(x[0], x[1]) for x in
-                       [(0, 120), (1, 140), (2, 70)]]
+        new_columns = [self.ui.Page3_Main.setColumnWidth(x[0], x[1]) for x in enumerate([120, 140, 110])]
 
+        new_columns = [self.ui.Page4_Main.setColumnWidth(x[0], x[1]) for x in enumerate([93] + [102] * 13)]
 
         self.ui.Date.setCalendarPopup(True)
         today = QDate.currentDate()

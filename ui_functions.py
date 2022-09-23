@@ -64,9 +64,14 @@ class ui_functions(MainWindow):
         self.ui.Button2.setCheckable(True)
         self.ui.Button3.setCheckable(True)
         self.ui.Button4.setCheckable(True)
+        self.ui.Button5.setCheckable(True)
+        self.ui.Button6.setCheckable(True)
+        self.ui.Button7.setCheckable(True)
+        self.ui.Button8.setCheckable(True)
 
         def controlbtnprssd(num, text, button):
-            buttons = [self.ui.Button1, self.ui.Button2, self.ui.Button3, self.ui.Button4]
+            buttons = [self.ui.Button1, self.ui.Button2, self.ui.Button3, self.ui.Button4, self.ui.Button5,
+                       self.ui.Button6, self.ui.Button7, self.ui.Button8]
             self.ui.StackedWidget_frame.setCurrentIndex(num)
             self.ui.Current_option.setText(text)
             for x in buttons:
@@ -104,12 +109,22 @@ class ui_functions(MainWindow):
         self.ui.Button2.clicked.connect(lambda: controlbtnprssd(2, "Операции за месяц", self.ui.Button2))
         self.ui.Button3.clicked.connect(lambda: controlbtnprssd(3, "Таблица за текущий месяц", self.ui.Button3))
         self.ui.Button4.clicked.connect(lambda: controlbtnprssd(4, "Таблица за текущий год", self.ui.Button4))
+        self.ui.Button5.clicked.connect(lambda: controlbtnprssd(5, "Внести часы работы", self.ui.Button5))
+        self.ui.Button6.clicked.connect(lambda: controlbtnprssd(6, "Часы работы за текущий месяц", self.ui.Button6))
+        self.ui.Button7.clicked.connect(lambda: controlbtnprssd(7, "Таблица часов работы", self.ui.Button7))
+        self.ui.Button8.clicked.connect(lambda: controlbtnprssd(8, "Часы работы за текущий год", self.ui.Button8))
 
         new_columns = [self.ui.Page2_Main.setColumnWidth(x[0], x[1]) for x in enumerate([30, 120, 140, 100, 80, 70])]
 
         new_columns = [self.ui.Page3_Main.setColumnWidth(x[0], x[1]) for x in enumerate([120, 140, 110])]
 
         new_columns = [self.ui.Page4_Main.setColumnWidth(x[0], x[1]) for x in enumerate([93] + [102] * 13)]
+
+        new_columns = [self.ui.Page7_Main.setColumnWidth(x[0], x[1]) for x in enumerate([100, 100])]
+
+        new_columns = [self.ui.Page6_Main.setColumnWidth(x[0], x[1]) for x in enumerate([30, 140, 100, 80, 70])]
+
+        new_columns = [self.ui.Page8_Main.setColumnWidth(x[0], x[1]) for x in enumerate([93] + [102] * 13)]
 
         self.ui.Date.setCalendarPopup(True)
         today = QDate.currentDate()
@@ -136,7 +151,30 @@ class ui_functions(MainWindow):
         self.ui.Date_To_3.calendarWidget().setSelectedDate(today)
         self.ui.Date_To_3.calendarWidget().setStyleSheet("color: rgb(0,0,0)")
 
+        self.ui.Date_2.setCalendarPopup(True)
+        today = QDate.currentDate()
+        self.ui.Date_2.calendarWidget().setSelectedDate(today)
+        self.ui.Date_2.calendarWidget().setStyleSheet("color: rgb(0,0,0)")
 
+        self.ui.Date_From_6.setCalendarPopup(True)
+        today = QDate.currentDate()
+        self.ui.Date_From_6.calendarWidget().setSelectedDate(today)
+        self.ui.Date_From_6.calendarWidget().setStyleSheet("color: rgb(0,0,0)")
+
+        self.ui.Date_To_6.setCalendarPopup(True)
+        today = QDate.currentDate()
+        self.ui.Date_To_6.calendarWidget().setSelectedDate(today)
+        self.ui.Date_To_6.calendarWidget().setStyleSheet("color: rgb(0,0,0)")
+
+        self.ui.Date_From_7.setCalendarPopup(True)
+        today = QDate.currentDate()
+        self.ui.Date_From_7.calendarWidget().setSelectedDate(today)
+        self.ui.Date_From_7.calendarWidget().setStyleSheet("color: rgb(0,0,0)")
+
+        self.ui.Date_To_7.setCalendarPopup(True)
+        today = QDate.currentDate()
+        self.ui.Date_To_7.calendarWidget().setSelectedDate(today)
+        self.ui.Date_To_7.calendarWidget().setStyleSheet("color: rgb(0,0,0)")
 
     def return_status():
         return global_state

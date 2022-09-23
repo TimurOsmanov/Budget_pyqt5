@@ -274,7 +274,7 @@ background-color: rgb(220, 220, 220);
              <property name="geometry">
               <rect>
                <x>0</x>
-               <y>81</y>
+               <y>82</y>
                <width>300</width>
                <height>40</height>
               </rect>
@@ -319,7 +319,7 @@ background-color: rgb(220, 220, 220);
                <x>0</x>
                <y>0</y>
                <width>300</width>
-               <height>162</height>
+               <height>328</height>
               </rect>
              </property>
              <property name="styleSheet">
@@ -337,7 +337,7 @@ background-color: rgb(220, 220, 220);
              <property name="geometry">
               <rect>
                <x>0</x>
-               <y>122</y>
+               <y>123</y>
                <width>300</width>
                <height>40</height>
               </rect>
@@ -376,11 +376,187 @@ background-color: rgb(220, 220, 220);
               </size>
              </property>
             </widget>
+            <widget class="QPushButton" name="Button6">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>205</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color: rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Часы работы за текущий месяц</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b6_time.png</normaloff>b6_time.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Button8">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>287</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color: rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Часы работы за текущий год</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b8_time.png</normaloff>b8_time.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Button5">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>164</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color:rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Внести часы работы</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b5_time.png</normaloff>b5_time.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Button7">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>246</y>
+               <width>300</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu Medium</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+background-color: rgb(243, 243, 243);
+border: 0px solid;
+text-align: left;
+color: rgb(75,75,75)
+}
+QPushButton:hover {
+background-color: rgb(220, 220, 220);
+}</string>
+             </property>
+             <property name="text">
+              <string>    Таблица часов работы</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>b7_table.png</normaloff>b7_table.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>24</height>
+              </size>
+             </property>
+            </widget>
             <zorder>frame</zorder>
             <zorder>Button2</zorder>
             <zorder>Button1</zorder>
             <zorder>Button3</zorder>
             <zorder>Button4</zorder>
+            <zorder>Button6</zorder>
+            <zorder>Button8</zorder>
+            <zorder>Button5</zorder>
+            <zorder>Button7</zorder>
            </widget>
           </item>
          </layout>
@@ -779,7 +955,7 @@ border-radius: 0px</string>
                 <number>1</number>
                </property>
                <property name="currentIndex">
-                <number>2</number>
+                <number>5</number>
                </property>
                <widget class="QWidget" name="page">
                 <property name="styleSheet">
@@ -793,7 +969,7 @@ border-radius: 0px</string>
                 <widget class="QLabel" name="Insert_info">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>230</y>
                    <width>790</width>
                    <height>30</height>
@@ -821,7 +997,7 @@ border-radius: 0px</string>
                 <widget class="QComboBox" name="Choose_option_2">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>380</y>
                    <width>150</width>
                    <height>30</height>
@@ -850,7 +1026,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLineEdit" name="New_category">
                  <property name="geometry">
                   <rect>
-                   <x>225</x>
+                   <x>220</x>
                    <y>380</y>
                    <width>150</width>
                    <height>30</height>
@@ -879,7 +1055,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QPushButton" name="Insert_2">
                  <property name="geometry">
                   <rect>
-                   <x>389</x>
+                   <x>380</x>
                    <y>380</y>
                    <width>150</width>
                    <height>30</height>
@@ -915,7 +1091,7 @@ background-color: rgb(255, 88, 11);
                 <widget class="QLabel" name="Insert_info_2">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>430</y>
                    <width>790</width>
                    <height>30</height>
@@ -943,7 +1119,7 @@ background-color: rgb(255, 88, 11);
                 <widget class="QLabel" name="Insert_2_label">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>280</y>
                    <width>790</width>
                    <height>30</height>
@@ -973,7 +1149,7 @@ background-color: rgb(255, 88, 11);
                 <widget class="QLabel" name="Insert_1_label">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>80</y>
                    <width>790</width>
                    <height>30</height>
@@ -1003,7 +1179,7 @@ background-color: rgb(255, 88, 11);
                 <widget class="QComboBox" name="Choose_option">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>180</y>
                    <width>150</width>
                    <height>30</height>
@@ -1032,7 +1208,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QComboBox" name="Choose_category">
                  <property name="geometry">
                   <rect>
-                   <x>225</x>
+                   <x>220</x>
                    <y>180</y>
                    <width>150</width>
                    <height>30</height>
@@ -1061,7 +1237,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLineEdit" name="Sum">
                  <property name="geometry">
                   <rect>
-                   <x>387</x>
+                   <x>380</x>
                    <y>180</y>
                    <width>150</width>
                    <height>30</height>
@@ -1090,7 +1266,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QPushButton" name="Insert">
                  <property name="geometry">
                   <rect>
-                   <x>711</x>
+                   <x>700</x>
                    <y>180</y>
                    <width>150</width>
                    <height>30</height>
@@ -1126,7 +1302,7 @@ background-color: rgb(255, 88, 11);
                 <widget class="QDateEdit" name="Date">
                  <property name="geometry">
                   <rect>
-                   <x>549</x>
+                   <x>540</x>
                    <y>180</y>
                    <width>150</width>
                    <height>30</height>
@@ -1155,7 +1331,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLabel" name="label_7">
                  <property name="geometry">
                   <rect>
-                   <x>225</x>
+                   <x>220</x>
                    <y>130</y>
                    <width>150</width>
                    <height>30</height>
@@ -1177,7 +1353,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLabel" name="label_8">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>130</y>
                    <width>150</width>
                    <height>30</height>
@@ -1199,7 +1375,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLabel" name="label_9">
                  <property name="geometry">
                   <rect>
-                   <x>387</x>
+                   <x>380</x>
                    <y>130</y>
                    <width>150</width>
                    <height>30</height>
@@ -1221,7 +1397,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLabel" name="label_10">
                  <property name="geometry">
                   <rect>
-                   <x>549</x>
+                   <x>540</x>
                    <y>130</y>
                    <width>150</width>
                    <height>30</height>
@@ -1243,7 +1419,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLabel" name="label_11">
                  <property name="geometry">
                   <rect>
-                   <x>63</x>
+                   <x>60</x>
                    <y>330</y>
                    <width>150</width>
                    <height>30</height>
@@ -1265,7 +1441,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                 <widget class="QLabel" name="label_12">
                  <property name="geometry">
                   <rect>
-                   <x>225</x>
+                   <x>220</x>
                    <y>330</y>
                    <width>150</width>
                    <height>30</height>
@@ -1284,6 +1460,202 @@ selection-background-color: rgb(255, 88, 11)</string>
                   <string>Категория</string>
                  </property>
                 </widget>
+                <widget class="QComboBox" name="del_option_p1">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>580</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QComboBox" name="del_cat_p1">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>580</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Del_label_p1">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>480</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Удалить категорию</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="del_p1">
+                 <property name="geometry">
+                  <rect>
+                   <x>380</x>
+                   <y>580</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Удалить</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="del_info_p1">
+                 <property name="geometry">
+                  <rect>
+                   <x>63</x>
+                   <y>630</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_24">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>530</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Категория</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_25">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>530</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Доход / Расход</string>
+                 </property>
+                </widget>
                </widget>
                <widget class="QWidget" name="Page2">
                 <property name="styleSheet">
@@ -1294,7 +1666,7 @@ selection-background-color: rgb(255, 88, 11)</string>
                   <rect>
                    <x>62</x>
                    <y>135</y>
-                   <width>650</width>
+                   <width>590</width>
                    <height>690</height>
                   </rect>
                  </property>
@@ -1852,6 +2224,1081 @@ selection-background-color: rgb(255, 88, 11)</string>
                    <string>Итог</string>
                   </property>
                  </column>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page5">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QLabel" name="Insert_1_label_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>80</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Внести часы</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Insert_info_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>230</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_17">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>330</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Категория</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Insert_info_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>430</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="Insert_2_label_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>280</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Внести категорию трат времени</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="New_category_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>380</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_19">
+                 <property name="geometry">
+                  <rect>
+                   <x>380</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Дата</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Insert_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>380</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Вставить</string>
+                 </property>
+                </widget>
+                <widget class="QComboBox" name="Choose_option_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QDateEdit" name="Date_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>380</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Insert_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>540</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Вставить</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_20">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Категория</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_21">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>130</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Часы</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="Sum_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>180</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="del_info_p5">
+                 <property name="geometry">
+                  <rect>
+                   <x>68</x>
+                   <y>630</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_23">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>530</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Категория</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="del_label">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>480</y>
+                   <width>790</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Удалить категорию трат времени</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="del_p5">
+                 <property name="geometry">
+                  <rect>
+                   <x>220</x>
+                   <y>580</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Удалить</string>
+                 </property>
+                </widget>
+                <widget class="QComboBox" name="del_option_p5">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>580</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page6">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QDateEdit" name="Date_From_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_16">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Начальная дата</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_18">
+                 <property name="geometry">
+                  <rect>
+                   <x>240</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Конечная дата</string>
+                 </property>
+                </widget>
+                <widget class="QDateEdit" name="Date_To_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QTableWidget" name="Page6_Main">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>135</y>
+                   <width>470</width>
+                   <height>690</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Light</family>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>№</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Категория</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Часы</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Дата</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Удалить</string>
+                  </property>
+                 </column>
+                </widget>
+                <widget class="QLabel" name="label_22">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>10</y>
+                   <width>801</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Для отображения таблицы за период выберите начальную и конечную дату и нажмите на кнопку &quot;Показать&quot;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Show_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>389</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Показать</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page7">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QDateEdit" name="Date_From_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QDateEdit" name="Date_To_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>225</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Show7">
+                 <property name="geometry">
+                  <rect>
+                   <x>389</x>
+                   <y>88</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+background-color:rgb(255, 255, 255);
+border: 1px solid gray;
+border-radius: 5px;
+color:rgb(67, 67, 67)
+}
+QPushButton:hover {
+background-color: rgb(255, 88, 11);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Показать</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_13">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Начальная дата</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>10</y>
+                   <width>801</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Для отображения таблицы за период выберите начальную и конечную дату и нажмите на кнопку &quot;Показать&quot;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_15">
+                 <property name="geometry">
+                  <rect>
+                   <x>240</x>
+                   <y>45</y>
+                   <width>150</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67)</string>
+                 </property>
+                 <property name="text">
+                  <string>Конечная дата</string>
+                 </property>
+                </widget>
+                <widget class="QTableWidget" name="Page7_Main">
+                 <property name="geometry">
+                  <rect>
+                   <x>62</x>
+                   <y>135</y>
+                   <width>240</width>
+                   <height>690</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Light</family>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>Категория</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Сумма</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ubuntu Medium</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </column>
+                </widget>
+                <widget class="QLabel" name="Inc_pie_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>420</x>
+                   <y>135</y>
+                   <width>480</width>
+                   <height>360</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Page8">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(243, 243, 243)</string>
+                </property>
+                <widget class="QTableWidget" name="Page8_Main">
+                 <property name="geometry">
+                  <rect>
+                   <x>30</x>
+                   <y>45</y>
+                   <width>1460</width>
+                   <height>870</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Light</family>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>Статья</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Январь</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Февраль</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Март</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Апрель</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Май</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Июнь</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Июль</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Август</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Сентрябрь</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Октябрь</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Ноябрь</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Декабрь</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Итог</string>
+                  </property>
+                 </column>
+                </widget>
+                <widget class="QComboBox" name="Choose_year_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>1420</x>
+                   <y>10</y>
+                   <width>69</width>
+                   <height>22</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Ubuntu Medium</family>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255,255,255);
+border-radius: 5px;
+border: 1px solid gray;
+color:rgb(67, 67, 67);
+selection-background-color: rgb(255, 88, 11)</string>
+                 </property>
                 </widget>
                </widget>
               </widget>

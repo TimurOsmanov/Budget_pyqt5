@@ -594,7 +594,7 @@ class MainWindow(QMainWindow):
                 operations.append(('Доход', 'Итого доход', sum([x[2] for x in operations if x[0] == 'Доход'])))
                 operations.append(('Расход', 'Итого расход', sum([x[2] for x in operations if x[0] == 'Расход'])))
                 operations.append(('Доход', 'Итог', operations[-2][2] - operations[-1][2]))
-                t = [(rows.index(x[1]), "{:,.2f}".format(int(x[2])).replace(',', ' ') + ' р') for x in operations]
+                t = [(rows.index(x[1]), "{:,.2f}".format(float(x[2])).replace(',', ' ') + ' р') for x in operations]
                 set_item_page4(t, m, bold_text)
                 add_to_dict(operations, sums_dict, rows)
             return sums_dict
@@ -974,7 +974,7 @@ class MainWindow(QMainWindow):
             for m in range(1, 13):
                 operations = select_data_for_table_hours(f'{year}-{str(m).zfill(2)}-01', f'{year}-{str(m).zfill(2)}-31')
                 operations.append(('Итог', sum([x[1] for x in operations])))
-                t = [(hours.index(x[0]), "{:,.2f}".format(int(x[1])).replace(',', ' ')) for x in operations]
+                t = [(hours.index(x[0]), "{:,.2f}".format(float(x[1])).replace(',', ' ')) for x in operations]
                 set_item_page8(t, m, bold)
                 add_to_dict_hours(operations, sums_dict, hours)
 

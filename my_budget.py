@@ -328,6 +328,7 @@ class MainWindow(QMainWindow):
             p1_combo_1()
             self.ui.del_option_p1.clear()
             self.ui.del_cat_p1.clear()
+            self.ui.del_info_p1.setText("")
             p1_combo_3()
 
         def delete_cat(category):
